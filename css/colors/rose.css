@@ -1,0 +1,297 @@
+/*--------------------------------------------------------------------------------------
+THEME NAME: VE RESUME
+COLOR NAME: ROSE 
+COLOR CODE: #f73679
+GRADIENT COLOR CODE: (#f73679, #f373a0)
+VERSION: 1.0
+----------------------------------------------------------------------------------------*/
+
+.navbar-header .collapse,
+.navbar-toggle {
+    border: 2px solid #f73679;
+}
+
+.navbar-toggle .icon-bar {
+    background: #f73679 none repeat scroll 0 0;
+}
+
+.area-title-and-description h2::before {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #f73679, #f373a0) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #f73679, #f373a0) repeat scroll 0 0;
+}
+
+
+/*---------------------------------
+    2.1 MAINMENU AREA
+-----------------------------------*/
+
+ul#nav li a:hover,
+ul#nav li.active a {
+    color: #f73679;
+}
+
+.is-sticky ul#nav li a:hover,
+.is-sticky ul#nav li.active a {
+    color: #f73679;
+}
+
+.push-menu-open-button {
+    background: #f73679 none repeat scroll 0 0;
+}
+
+.push-menu-open-button:hover {
+    color: #f73679;
+}
+
+
+/*-----------------------------------
+    SIDE PUSH MENU AREA
+------------------------------------*/
+
+.search-bar form button {
+    background: #f73679 none repeat scroll 0 0;
+}
+
+.search-bar form button:hover {
+    color: #f73679;
+}
+
+.push-menu ul li a:hover,
+.push-menu ul li a:focus {
+    color: #f73679;
+}
+
+.push-menu-close {
+    background: #f73679 none repeat scroll 0 0;
+}
+
+.push-menu-close:hover {
+    color: #f73679;
+}
+
+
+/*-----------------------------------
+    2.2 WELCOME TEXT AREA
+-------------------------------------*/
+
+.welcome-text h3 span {
+    color: #f73679;
+}
+
+.call-to-action a {
+    color: #f73679;
+}
+
+.call-to-action a:hover {
+    background: #f73679 none repeat scroll 0 0;
+    border-color: #f73679;
+}
+
+.home-button a:hover {
+    color: #f73679;
+}
+
+.home-button a i {
+    color: #f73679;
+}
+
+
+/*-----------------------------
+    3. ABOUT AREA
+-------------------------------*/
+
+.address-details strong {
+    color: #f73679;
+}
+
+.author-social-bookmark ul li a:hover {
+    color: #f73679;
+}
+
+
+/*-----------------------------
+    4. EDUCATION AREA
+------------------------------*/
+
+.row.timeline .col-lg-6 .single-timeline-content {
+    border-left: 2px solid #f73679;
+}
+
+.row.timeline .col-lg-6:nth-child(2n) .single-timeline-content {
+    border-right: 2px solid #f73679;
+}
+
+.timeline-icon {
+    background: -webkit-linear-gradient(left, #f73679, #f373a0);
+    background: linear-gradient(90deg, #f73679, #f373a0);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.single-timeline-content::before {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #f73679, #f373a0) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #f73679, #f373a0) repeat scroll 0 0;
+}
+
+.single-timeline-content::after {
+    border: 5px solid #f73679;
+}
+
+.single-timeline-content:hover::after {
+    background: #f73679;
+}
+
+.title-and-icon p span {
+    color: #f73679;
+}
+
+
+/*-----------------------------
+    5. SKILL AREA
+------------------------------*/
+
+.sub-hidding-icon {
+    background: -webkit-linear-gradient(left, #f73679, #f373a0);
+    background: linear-gradient(90deg, #f73679, #f373a0);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.sub-hidding h3::after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #f73679, #f373a0) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #f73679, #f373a0) repeat scroll 0 0;
+}
+
+.skillst .count-bar {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #f73679, #f373a0) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #f73679, #f373a0) repeat scroll 0 0;
+    height: 100%;
+}
+
+
+/*-----------------------------
+    6. PORTFOLIO GALLERY
+------------------------------*/
+
+.gallery-overlay:hover:before {
+    border-color: #f73679
+}
+
+.gallery-overlay:hover:after {
+    border-color: #f73679
+}
+
+.gallary-slider .owl-nav > div {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #f73679, #f373a0) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #f73679, #f373a0) repeat scroll 0 0;
+}
+
+
+/*------------------------------
+    7. BLOG AREA
+-------------------------------*/
+
+.blog-meta::after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #f73679, #f373a0) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #f73679, #f373a0) repeat scroll 0 0;
+}
+
+.single-blog-details h3 a {
+    color: #37404c;
+}
+
+.single-blog-details h3 a:hover {
+    color: #f73679;
+}
+
+a.read-more {
+    color: #f73679;
+}
+
+a.read-more:hover {
+    border-color: #f73679;
+}
+
+a.read-more::before,
+.contact-form button:before {
+    background: #f73679 none repeat scroll 0 0;
+}
+
+.show-more a {
+    background: #f73679 none repeat scroll 0 0;
+    border: 2px solid #f73679;
+}
+
+.show-more a:hover {
+    color: #f73679;
+}
+
+
+/*-----------------------------
+    8. CONTACT AREA
+------------------------------*/
+
+.contact-icon {
+    background: -webkit-linear-gradient(left, #f73679, #f373a0);
+    background: linear-gradient(90deg, #f73679, #f373a0);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.contact-details a:hover {
+    color: #f73679;
+}
+
+input.form-control:focus,
+.contact-form textarea:focus {
+    border-color: #f73679;
+}
+
+.contact-form button {
+    color: #f73679;
+}
+
+.contact-form button:hover {
+    border-color: #f73679;
+}
+
+
+/*-----------------------------
+    9. FOOTER AREA
+------------------------------*/
+
+.footer-copyright-social-bookmark ul li a:hover,
+.footer-area a:hover {
+    color: #f73679;
+}
+
+
+/*------------------------------
+    10. SCROLL TO TOP
+-------------------------------*/
+
+a.scrolltotop {
+    background: #f73679 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+a.scrolltotop:hover {
+    box-shadow: 0 0 0 0 #272727;
+    background: #272727;
+}
+
+
+/*-----------------------------
+    11. PRELOADER
+------------------------------*/
+
+.preloader-spinner {
+    border: 5px solid #f73679;
+}
+
+/*----------------------------
+    SWITHER BUTTON
+-----------------------------*/
+.switch-button {
+    color: #f73679;
+}

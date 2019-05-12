@@ -1,0 +1,297 @@
+/*--------------------------------------------------------------------------------------
+THEME NAME: VE RESUME
+COLOR NAME: LIGHT GREEN 
+COLOR CODE: #23d1b7
+GRADIENT COLOR CODE: (#23d1b7, #60efda)
+VERSION: 1.0
+----------------------------------------------------------------------------------------*/
+
+.navbar-header .collapse,
+.navbar-toggle {
+    border: 2px solid #23d1b7;
+}
+
+.navbar-toggle .icon-bar {
+    background: #23d1b7 none repeat scroll 0 0;
+}
+
+.area-title-and-description h2::before {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #23d1b7, #60efda) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #23d1b7, #60efda) repeat scroll 0 0;
+}
+
+
+/*---------------------------------
+    2.1 MAINMENU AREA
+-----------------------------------*/
+
+ul#nav li a:hover,
+ul#nav li.active a {
+    color: #23d1b7;
+}
+
+.is-sticky ul#nav li a:hover,
+.is-sticky ul#nav li.active a {
+    color: #23d1b7;
+}
+
+.push-menu-open-button {
+    background: #23d1b7 none repeat scroll 0 0;
+}
+
+.push-menu-open-button:hover {
+    color: #23d1b7;
+}
+
+
+/*-----------------------------------
+    SIDE PUSH MENU AREA
+------------------------------------*/
+
+.search-bar form button {
+    background: #23d1b7 none repeat scroll 0 0;
+}
+
+.search-bar form button:hover {
+    color: #23d1b7;
+}
+
+.push-menu ul li a:hover,
+.push-menu ul li a:focus {
+    color: #23d1b7;
+}
+
+.push-menu-close {
+    background: #23d1b7 none repeat scroll 0 0;
+}
+
+.push-menu-close:hover {
+    color: #23d1b7;
+}
+
+
+/*-----------------------------------
+    2.2 WELCOME TEXT AREA
+-------------------------------------*/
+
+.welcome-text h3 span {
+    color: #23d1b7;
+}
+
+.call-to-action a {
+    color: #23d1b7;
+}
+
+.call-to-action a:hover {
+    background: #23d1b7 none repeat scroll 0 0;
+    border-color: #23d1b7;
+}
+
+.home-button a:hover {
+    color: #23d1b7;
+}
+
+.home-button a i {
+    color: #23d1b7;
+}
+
+
+/*-----------------------------
+    3. ABOUT AREA
+-------------------------------*/
+
+.address-details strong {
+    color: #23d1b7;
+}
+
+.author-social-bookmark ul li a:hover {
+    color: #23d1b7;
+}
+
+
+/*-----------------------------
+    4. EDUCATION AREA
+------------------------------*/
+
+.row.timeline .col-lg-6 .single-timeline-content {
+    border-left: 2px solid #23d1b7;
+}
+
+.row.timeline .col-lg-6:nth-child(2n) .single-timeline-content {
+    border-right: 2px solid #23d1b7;
+}
+
+.timeline-icon {
+    background: -webkit-linear-gradient(left, #23d1b7, #60efda);
+    background: linear-gradient(90deg, #23d1b7, #60efda);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.single-timeline-content::before {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #23d1b7, #60efda) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #23d1b7, #60efda) repeat scroll 0 0;
+}
+
+.single-timeline-content::after {
+    border: 5px solid #23d1b7;
+}
+
+.single-timeline-content:hover::after {
+    background: #23d1b7;
+}
+
+.title-and-icon p span {
+    color: #23d1b7;
+}
+
+
+/*-----------------------------
+    5. SKILL AREA
+------------------------------*/
+
+.sub-hidding-icon {
+    background: -webkit-linear-gradient(left, #23d1b7, #60efda);
+    background: linear-gradient(90deg, #23d1b7, #60efda);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.sub-hidding h3::after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #23d1b7, #60efda) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #23d1b7, #60efda) repeat scroll 0 0;
+}
+
+.skillst .count-bar {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #23d1b7, #60efda) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #23d1b7, #60efda) repeat scroll 0 0;
+    height: 100%;
+}
+
+
+/*-----------------------------
+    6. PORTFOLIO GALLERY
+------------------------------*/
+
+.gallery-overlay:hover:before {
+    border-color: #23d1b7
+}
+
+.gallery-overlay:hover:after {
+    border-color: #23d1b7
+}
+
+.gallary-slider .owl-nav > div {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #23d1b7, #60efda) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #23d1b7, #60efda) repeat scroll 0 0;
+}
+
+
+/*------------------------------
+    7. BLOG AREA
+-------------------------------*/
+
+.blog-meta::after {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #23d1b7, #60efda) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, #23d1b7, #60efda) repeat scroll 0 0;
+}
+
+.single-blog-details h3 a {
+    color: #37404c;
+}
+
+.single-blog-details h3 a:hover {
+    color: #23d1b7;
+}
+
+a.read-more {
+    color: #23d1b7;
+}
+
+a.read-more:hover {
+    border-color: #23d1b7;
+}
+
+a.read-more::before,
+.contact-form button:before {
+    background: #23d1b7 none repeat scroll 0 0;
+}
+
+.show-more a {
+    background: #23d1b7 none repeat scroll 0 0;
+    border: 2px solid #23d1b7;
+}
+
+.show-more a:hover {
+    color: #23d1b7;
+}
+
+
+/*-----------------------------
+    8. CONTACT AREA
+------------------------------*/
+
+.contact-icon {
+    background: -webkit-linear-gradient(left, #23d1b7, #60efda);
+    background: linear-gradient(90deg, #23d1b7, #60efda);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.contact-details a:hover {
+    color: #23d1b7;
+}
+
+input.form-control:focus,
+.contact-form textarea:focus {
+    border-color: #23d1b7;
+}
+
+.contact-form button {
+    color: #23d1b7;
+}
+
+.contact-form button:hover {
+    border-color: #23d1b7;
+}
+
+
+/*-----------------------------
+    9. FOOTER AREA
+------------------------------*/
+
+.footer-copyright-social-bookmark ul li a:hover,
+.footer-area a:hover {
+    color: #23d1b7;
+}
+
+
+/*------------------------------
+    10. SCROLL TO TOP
+-------------------------------*/
+
+a.scrolltotop {
+    background: #23d1b7 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+a.scrolltotop:hover {
+    box-shadow: 0 0 0 0 #272727;
+    background: #272727;
+}
+
+
+/*-----------------------------
+    11. PRELOADER
+------------------------------*/
+
+.preloader-spinner {
+    border: 5px solid #23d1b7;
+}
+
+/*----------------------------
+    SWITHER BUTTON
+-----------------------------*/
+.switch-button {
+    color: #23d1b7;
+}

@@ -1,0 +1,112 @@
+.color-panel {
+    display: block;
+    height: 230px;
+    left: 0;
+    position: fixed;
+    top: 20%;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 120px;
+    z-index: 9;
+}
+
+.color-panel.close-panel {
+    left: -120px;
+    opacity: 0.5;
+}
+
+.switch-button {
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 0 5px 5px 0;
+    box-sizing: border-box;
+    color: #21c2f8;
+    cursor: pointer;
+    font-size: 30px;
+    height: 40px;
+    padding-top: 5px;
+    position: absolute;
+    right: -40px;
+    text-align: center;
+    top: 0;
+    width: 40px;
+}
+
+.color-panel ul {
+    background: #ddd none repeat scroll 0 0;
+    list-style: outside none none;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.color-panel ul li {
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    margin: 5px;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 30px;
+}
+
+.color-panel a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.color-panel li.default {
+    background: #21c2f8 none repeat scroll 0 0;
+}
+
+.color-panel li.rose {
+    background: #f73679 none repeat scroll 0 0;
+}
+
+.color-panel li.purple {
+    background: #8c5ef2 none repeat scroll 0 0;
+}
+
+.color-panel li.yellow {
+    background: #f9b83e none repeat scroll 0 0;
+}
+
+.color-panel li.mint-blue {
+    background: #036ded none repeat scroll 0 0;
+}
+
+.color-panel li.forest-green {
+    background: #6bd693 none repeat scroll 0 0;
+}
+
+.color-panel li.midnight-blue {
+    background: #3f51b5 none repeat scroll 0 0;
+}
+
+.color-panel li.light-green {
+    background: #23d1b7 none repeat scroll 0 0;
+}
+
+.color-panel ul li::before {
+    color: #fff;
+    content: "\efad";
+    font-family: "IcoFont" !important;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 6px;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.color-panel ul li.active::before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
